@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-13T15:45:23 IST" name="Default suite" finished-at="2023-07-13T15:45:23 IST" duration-ms="46">
+  <suite started-at="2023-07-13T17:09:44 IST" name="Default suite" finished-at="2023-07-13T17:09:44 IST" duration-ms="40">
     <groups>
+      <group name="regression">
+        <method signature="Upgradedtest.Student()[pri:0, instance:ish.admintest.Upgradedtest@18ce0030]" name="Student" class="ish.admintest.Upgradedtest"/>
+        <method signature="Upgradedtest.UpgradedTest()[pri:0, instance:ish.admintest.Upgradedtest@18ce0030]" name="UpgradedTest" class="ish.admintest.Upgradedtest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Upgradedtest.UpgradedTest()[pri:0, instance:ish.admintest.Upgradedtest@18ce0030]" name="UpgradedTest" class="ish.admintest.Upgradedtest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-07-13T15:45:23 IST" name="Default test" finished-at="2023-07-13T15:45:23 IST" duration-ms="46">
-      <class name="ish.admintest.ExamTest">
-        <test-method signature="Sample_test_demo()[pri:0, instance:ish.admintest.ExamTest@56a6d5a6]" started-at="2023-07-13T15:45:23 IST" name="Sample_test_demo" finished-at="2023-07-13T15:45:23 IST" duration-ms="9" status="PASS">
+    <test started-at="2023-07-13T17:09:44 IST" name="Default test" finished-at="2023-07-13T17:09:44 IST" duration-ms="40">
+      <class name="ish.admintest.Upgradedtest">
+        <test-method signature="Student()[pri:0, instance:ish.admintest.Upgradedtest@18ce0030]" started-at="2023-07-13T17:09:44 IST" name="Student" finished-at="2023-07-13T17:09:44 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Sample_test_demo -->
-      </class> <!-- ish.admintest.ExamTest -->
+        </test-method> <!-- Student -->
+        <test-method signature="UpgradedTest()[pri:0, instance:ish.admintest.Upgradedtest@18ce0030]" started-at="2023-07-13T17:09:44 IST" name="UpgradedTest" finished-at="2023-07-13T17:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpgradedTest -->
+      </class> <!-- ish.admintest.Upgradedtest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
