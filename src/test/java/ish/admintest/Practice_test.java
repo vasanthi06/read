@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Practice_test {
 	
-	@Test()
+	@Test(groups = {"smoke","regression"})
 	
 	public void practice_test()
 	{
